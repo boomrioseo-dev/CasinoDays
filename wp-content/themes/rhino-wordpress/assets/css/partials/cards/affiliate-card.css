@@ -1,0 +1,127 @@
+/*
+Add global SASS variables to this file
+*/
+.ac {
+  background-color: var(--background-light);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 30px;
+  border-radius: var(--radius-rounded);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.ac-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-light-secondary);
+  height: 100%;
+  border-radius: var(--radius-rounded);
+  min-height: 150px;
+}
+.ac-logo img {
+  display: block;
+  height: 35px;
+  width: auto;
+  max-width: 90%;
+}
+.ac-header {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .ac-header {
+    height: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .ac-header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .ac-header .ac-logo {
+    width: 50%;
+  }
+  .ac-header-extra {
+    width: 50%;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ac-header-extra strong {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+.ac-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 15px;
+}
+@media (max-width: 992px) {
+  .ac-main .main-text {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .ac-main {
+    margin: 15px 0;
+  }
+}
+.ac-main-benefits {
+  list-style: none;
+  padding-left: 0;
+}
+.ac-main-benefits li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.ac-main-benefits li:last-child {
+  margin-bottom: 0;
+}
+.ac-main-benefits li img {
+  display: block;
+  height: 15px;
+  width: auto;
+  margin-right: 10px;
+}
+.ac-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  .ac-actions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.ac-actions .cta {
+  margin-right: 0 !important;
+}
+.ac-actions-flag {
+  display: block;
+  height: 30px;
+  width: auto;
+}
+.ac-actions strong {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ac-actions-terms {
+  margin-top: 15px;
+  text-decoration: underline;
+}
+.ac-actions-terms:hover {
+  color: var(--accent-primary);
+  text-decoration: underline;
+}
+.ac.tall .col-lg-3,
+.ac.tall .col-lg-6 {
+  width: 100%;
+}

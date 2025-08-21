@@ -1,0 +1,60 @@
+/*
+Add global SASS variables to this file
+*/
+.faq-inner {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.faq-accordion .accordion-clickable {
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border: none;
+  width: 100%;
+}
+.faq-accordion .accordion-clickable-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq-accordion .accordion-clickable-question img {
+  display: block;
+  height: 20px;
+  width: auto;
+  margin-right: 7.5px;
+}
+.faq-accordion .accordion-clickable-question h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.faq-accordion .accordion-clickable:hover, .faq-accordion .accordion-clickable:focus, .faq-accordion .accordion-clickable:active, .faq-accordion .accordion-clickable:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.faq-accordion .accordion-clickable .toggle-icon {
+  display: block;
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
+.faq-accordion .accordion-body {
+  padding: 15px 10px 0 10px;
+}
+.faq-accordion .accordion-item {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid;
+  border-color: var(--font-default);
+}
+.faq-accordion .accordion-item:hover {
+  border-bottom-color: var(--accent-primary);
+}
+.faq-accordion .accordion-item:hover .accordion-clickable h3 {
+  color: var(--accent-primary);
+}

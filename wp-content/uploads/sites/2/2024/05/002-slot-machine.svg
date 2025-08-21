@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="512pt" viewBox="0 0 512 512" width="512pt">
+  <path d="m482 271v-106h-30v106l15 30zm0 0" fill="#292929"></path>
+  <path d="m376 271-30 90h91c24.8125 0 45-20.1875 45-45v-45zm0 0" fill="#444"></path>
+  <path d="m385 63c-3.601562-2.699219-85.800781-63-189-63s-186.398438 60.300781-190 63l-6 4.5v143.5l31 30h330l30-30v-143.5zm0 0" fill="#ff6c6c"></path>
+  <path d="m391 67.5v143.5l-30 30h-165v-241c103.199219 0 185.398438 60.300781 189 63zm0 0" fill="#ff4949"></path>
+  <path d="m391 391v121h-120l-30-30h-90l-30 30h-121v-121l31-30h330.601562zm0 0" fill="#ff6c6c"></path>
+  <path d="m361.601562 361 29.398438 30v121h-120l-30-30h-45v-121zm0 0" fill="#ff4949"></path>
+  <path d="m0 211h391v180h-391zm0 0" fill="#6e6e6e"></path>
+  <path d="m196 211h195v180h-195zm0 0" fill="#5a5a5a"></path>
+  <path d="m121 452h150v60h-150zm0 0" fill="#5a5a5a"></path>
+  <path d="m121 60v90h150v-90zm0 0" fill="#ede9e8"></path>
+  <path d="m467 180c-24.8125 0-45-20.1875-45-45s20.1875-45 45-45 45 20.1875 45 45-20.1875 45-45 45zm0 0" fill="#ff4949"></path>
+  <path d="m196 60h75v90h-75zm0 0" fill="#dfd7d5"></path>
+  <path d="m196 452h75v60h-75zm0 0" fill="#444"></path>
+  <path d="m31 241h90v120h-90zm0 0" fill="#ede9e8"></path>
+  <path d="m151 241h90v120h-90zm0 0" fill="#ede9e8"></path>
+  <path d="m271 241h90v120h-90zm0 0" fill="#dfd7d5"></path>
+  <path d="m196 241h45v120h-45zm0 0" fill="#dfd7d5"></path>
+  <path d="m301 271h30v60h-30zm0 0" fill="#ff4949"></path>
+  <path d="m181 271h30v60h-30zm0 0" fill="#ff6c6c"></path>
+  <path d="m61 271h30v60h-30zm0 0" fill="#ff6c6c"></path>
+  <path d="m196 271h15v60h-15zm0 0" fill="#ff4949"></path>
+</svg>

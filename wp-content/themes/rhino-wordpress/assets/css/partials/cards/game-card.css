@@ -1,0 +1,62 @@
+/*
+Add global SASS variables to this file
+*/
+.game-card .wrapper {
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: var(--radius-rounded);
+}
+.game-card .wrapper img.thumbnail {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: var(--radius-rounded);
+}
+.game-card .wrapper .actions {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: var(--radius-rounded);
+  background: var(--gradient-radial-dark);
+}
+.game-card .wrapper .actions .cta-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+}
+.game-card .wrapper .actions .cta-group .cta {
+  width: 100%;
+  max-width: 100%;
+  display: inline-flex;
+}
+.game-card .wrapper .actions .cta-group .cta:first-child {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+.game-card .wrapper:hover img.thumbnail {
+  display: none;
+}
+.game-card .wrapper:hover .actions {
+  display: flex;
+}
+.game-card-default .wrapper {
+  padding-bottom: 100%;
+}
+.game-card-tall .wrapper {
+  padding-bottom: 140%;
+}
+.game-card strong {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

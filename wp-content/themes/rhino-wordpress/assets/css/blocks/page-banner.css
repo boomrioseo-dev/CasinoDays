@@ -1,0 +1,28 @@
+/*
+Add global SASS variables to this file
+*/
+.page-banner {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: var(--background-dark);
+  margin-bottom: 30px;
+}
+.page-banner-inner {
+  min-height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.page-banner-content {
+  max-width: 100%;
+}
+.page-banner-content h1, .page-banner-content .h1, .page-banner-content p, .page-banner-content small {
+  color: var(--font-light);
+}
+.page-banner-content small {
+  display: block;
+  margin-top: 75px;
+  width: 500px;
+  max-width: 100%;
+}

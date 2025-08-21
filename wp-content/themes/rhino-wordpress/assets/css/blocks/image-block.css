@@ -1,0 +1,80 @@
+/*
+Add global SASS variables to this file
+*/
+.image-block-inner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+.image-block-inner .image-block-content {
+  display: block;
+}
+.image-block-inner .image-block-content p:last-child {
+  margin-bottom: 0;
+}
+.image-block-inner .image-block-img {
+  display: block;
+  border-radius: var(--radius-rounded);
+}
+.image-block-inner.rows {
+  flex-direction: column;
+}
+.image-block-inner.rows.content-first {
+  flex-direction: column-reverse;
+}
+.image-block-inner.rows.content-first img {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .image-block-inner.rows.content-first {
+    flex-direction: column;
+  }
+  .image-block-inner.rows.content-first img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+.image-block-inner.rows.image-first img {
+  margin-bottom: 25px;
+}
+.image-block-inner.rows .image-block-content {
+  width: 100%;
+}
+.image-block-inner.rows img.image-block-img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.image-block-inner.columns {
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .image-block-inner.columns {
+    flex-direction: column;
+  }
+  .image-block-inner.columns .image-block-img,
+.image-block-inner.columns .image-block-content {
+    width: 100% !important;
+    margin: 10px auto !important;
+  }
+  .image-block-inner.columns .image-block-img {
+    max-width: 600px !important;
+  }
+}
+.image-block-inner.columns.content-first {
+  flex-direction: row-reverse;
+}
+@media (max-width: 768px) {
+  .image-block-inner.columns.content-first {
+    flex-direction: column;
+  }
+}
+.image-block-inner.columns.top {
+  align-items: flex-start;
+}
+.image-block-inner.columns.middle {
+  align-items: center;
+}
+.image-block-inner.columns.bottom {
+  align-items: flex-end;
+}

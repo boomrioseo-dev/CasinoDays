@@ -1,0 +1,74 @@
+/*
+Add global SASS variables to this file
+*/
+.icon-boxes-inner .col-12 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.icon-boxes-inner .icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.icon-boxes-inner .icon-box p {
+  color: var(--font-dark);
+}
+.icon-boxes-inner .icon-box p:last-child {
+  margin-bottom: 0;
+}
+.icon-boxes-inner .icon-box img {
+  display: block;
+  height: 30px;
+  width: auto;
+  margin-bottom: 10px;
+}
+.icon-boxes-inner .icon-box .lead {
+  margin-top: 10px;
+}
+.icon-boxes-small .icon-boxes-inner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.icon-boxes-large {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icon-boxes-large .icon-boxes-inner {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.icon-boxes-large h2, .icon-boxes-large .lead {
+  color: var(--font-light);
+}
+.icon-boxes-large .icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--background-light);
+  padding: 30px;
+  border-radius: var(--radius-rounded);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 12.5px;
+  margin-top: 12.5px;
+}
+.icon-boxes-large .icon-box .lead {
+  margin-bottom: 5px;
+}
+.icon-boxes-large .icon-box p {
+  color: var(--font-dark);
+}
+.icon-boxes-large .icon-box p:last-child {
+  margin-bottom: 0;
+}
+.icon-boxes-large .icon-box img {
+  display: block;
+  height: 50px;
+  width: auto;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+/*
+Add global SASS variables to this file
+*/
+.section-title-inner {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.section-title-inner.left-align {
+  text-align: left;
+}
+.section-title-inner.center-align {
+  text-align: center;
+}

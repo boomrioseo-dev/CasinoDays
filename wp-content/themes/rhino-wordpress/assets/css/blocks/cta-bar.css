@@ -1,0 +1,17 @@
+/*
+Add global SASS variables to this file
+*/
+.cta-bar-inner {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.cta-bar-card {
+  padding: 15px 30px;
+  border-radius: var(--radius-rounded);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  background-color: var(--background-dark);
+}
+.cta-bar-card h3 {
+  color: var(--font-light);
+  margin-bottom: 20px;
+}

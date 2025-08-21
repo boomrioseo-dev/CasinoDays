@@ -1,0 +1,30 @@
+/*
+Add global SASS variables to this file
+*/
+.flexible-data-table-inner {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.flexible-data-table table th, .flexible-data-table table td {
+  color: var(--font-dark);
+}
+.flexible-data-table table tr th {
+  background-color: var(--background-light-secondary);
+  border-width: 1px;
+}
+.flexible-data-table table tr td {
+  background-color: var(--background-light);
+  border-width: 1px;
+}
+.flexible-data-table table thead {
+  border-bottom-width: 0;
+}
+.flexible-data-table table th, .flexible-data-table table td, .flexible-data-table table thead, .flexible-data-table table tr {
+  border-color: var(--font-default);
+}
+.flexible-data-table table tbody {
+  border-top-width: 0 !important;
+}
+.flexible-data-table table tbody tr:nth-child(even) td {
+  background-color: var(--background-light-secondary);
+}

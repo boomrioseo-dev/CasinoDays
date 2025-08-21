@@ -1,0 +1,1 @@
+$(function(){function a(a){var t=$(a.target).siblings(".accordion-header").find(".toggle-icon"),o=t.attr("src"),a=t.data("alt");t.attr("src",a),t.data("alt",o)}$(".faq").on("show.bs.collapse",a),$(".faq").on("hide.bs.collapse",a)});

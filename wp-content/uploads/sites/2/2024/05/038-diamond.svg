@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="512pt" viewBox="-61 0 512 512" width="512pt">
+  <path d="m261.285156 189.714844 33.441406-100.339844 83.65625-16.757812-16.757812 83.65625zm0 0" fill="#dfd7d5"></path>
+  <path d="m127.984375 189.714844-100.386719-33.441406-16.714844-83.65625 83.613282 16.757812zm0 0" fill="#ede9e8"></path>
+  <path d="m0 301 195 211-29.085938-139.816406-45.914062-71.183594-55-30zm0 0" fill="#dfd7d5"></path>
+  <path d="m270 301-73.554688 94.441406-1.445312 116.558594 195-211-45-30zm0 0" fill="#d2c5c2"></path>
+  <path d="m270 301-75 211-75-211 75-30zm0 0" fill="#d2c5c2"></path>
+  <path d="m270 301-75 211v-241zm0 0" fill="#c4b3af"></path>
+  <path d="m390 301h-120v-60l60-30zm0 0" fill="#c4b3af"></path>
+  <path d="m120 301h-120l60-90 60 30zm0 0" fill="#d2c5c2"></path>
+  <path d="m195 211-15 60-60 30-60-90zm0 0" fill="#ede9e8"></path>
+  <path d="m330 211-60 90-60-30-15-60zm0 0" fill="#dfd7d5"></path>
+  <path d="m270 301h-150l75-90zm0 0" fill="#dfd7d5"></path>
+  <path d="m270 301h-75v-90zm0 0" fill="#d2c5c2"></path>
+  <path d="m240 91-45 90-45-90 45-91zm0 0" fill="#ede9e8"></path>
+  <path d="m240 91-45 90v-181zm0 0" fill="#dfd7d5"></path>
+</svg>

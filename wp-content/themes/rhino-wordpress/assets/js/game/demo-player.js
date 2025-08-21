@@ -1,0 +1,1 @@
+$(function(){$(".game-banner").on("click",".demo-thumbnail",function(){var a=$(this).parent(".demo-wrapper-inner"),e=a.data("game-url");a.html('<iframe src="'+e+'" width="100%" height="100%"></iframe>')})});

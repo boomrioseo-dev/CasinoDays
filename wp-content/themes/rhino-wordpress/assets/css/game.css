@@ -1,0 +1,203 @@
+/*
+Add global SASS variables to this file
+*/
+.game-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.game-banner-inner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.game-banner h1 {
+  margin-bottom: 10px;
+}
+.game-banner-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.game-banner-meta-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.game-banner-meta-item img {
+  display: block;
+  height: 12.5px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.message {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  left: 30%;
+  z-index: 600;
+  border-radius: var(--radius-rounded);
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border: 4px solid var(--background-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .message {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+  }
+}
+.message p {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: var(--font-dark);
+}
+.message img {
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+  filter: brightness(0);
+}
+
+.no-demo-thumbnail {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.no-demo-thumbnail .cover {
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.no-demo-thumbnail .cover.blur-thumbnail {
+  filter: blur(2px);
+}
+
+.demo-wrapper {
+  width: 100%;
+  border: 4px solid var(--background-light);
+}
+.demo-wrapper-inner {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.demo-wrapper iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}
+.demo-thumbnail {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.demo-thumbnail:hover {
+  cursor: pointer;
+}
+.demo-thumbnail:hover .message {
+  background-color: var(--background-light);
+}
+.demo-thumbnail .cover {
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.demo-thumbnail .cover.blur-thumbnail {
+  filter: blur(2px);
+}
+.demo-sidebar {
+  background-color: var(--background-light);
+  border-radius: var(--radius-rounded);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+@media (max-width: 992px) {
+  .demo-sidebar {
+    margin-top: 15px;
+  }
+}
+.demo-sidebar-provider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-light-secondary);
+  border-radius: var(--radius-rounded);
+  height: 200px;
+}
+.demo-sidebar-provider img {
+  display: block;
+  height: 50px;
+  width: auto;
+  max-width: 90%;
+}
+@media (max-width: 768px) {
+  .demo-sidebar-provider {
+    height: 100px;
+  }
+  .demo-sidebar-provider img {
+    height: 40px;
+  }
+}
+.demo-sidebar-table {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--background-light-secondary);
+  border-radius: var(--radius-rounded);
+  margin-top: 10px;
+}
+.demo-sidebar-table-row {
+  display: flex;
+  justify-content: center;
+}
+.demo-sidebar-table-column {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+.demo-sidebar-table-column:first-child {
+  font-weight: bold;
+  width: 40%;
+}
+
+.related-games-inner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.related-games-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.related-games-footer {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,42 @@
+/*
+Add global SASS variables to this file
+*/
+.table-of-contents {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: var(--background-dark);
+  border-radius: var(--radius-rounded);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.table-of-contents-header {
+  padding: 15px;
+  background-color: var(--accent-primary);
+  border-top-left-radius: var(--radius-rounded);
+  border-top-right-radius: var(--radius-rounded);
+}
+.table-of-contents-header .lead {
+  color: var(--font-light);
+  margin-bottom: 0;
+}
+.table-of-contents-links {
+  padding: 15px;
+}
+.table-of-contents-links ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.table-of-contents-links ul li {
+  margin-bottom: 15px;
+}
+.table-of-contents-links ul li:last-child {
+  margin-bottom: 0;
+}
+.table-of-contents-links ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--font-light);
+}
+.table-of-contents-links ul li a:hover {
+  opacity: 0.9;
+}
